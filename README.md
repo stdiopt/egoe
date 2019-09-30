@@ -2,7 +2,10 @@
 
 https://stdiopt.github.io/egoe/
 
-Exploring `entity component system` pattern in go and webgl2 instancing
+Exploring `entity component system` pattern in go and a couple other things
+
+- webgl2 instancing
+- multitouch
 
 After a couple of tries/benchmarks on different methods I came up with this
 
