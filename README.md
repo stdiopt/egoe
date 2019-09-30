@@ -51,19 +51,19 @@ m.Trigger(anystruct)
 
 ## Packages
 
-- github.com/stdiopt/egoe/ecs it is the hub where systems interacts with each
+- **github.com/stdiopt/egoe/ecs** it is the hub where systems interacts with each
   others, a kind of messaging bus
-- github.com/stdiopt/egoe/gl contains code from `golang.org/x/mobile/gl` mostly
+- **github.com/stdiopt/egoe/gl** contains code from `golang.org/x/mobile/gl` mostly
   the interface and gl constants and a partially implemented webgl wrapper as
   most of things were implemented on demand
-- github.com/stdiopt/egoe/systems/dom system that prepares the HTML page with the
+- **github.com/stdiopt/egoe/systems/dom** system that prepares the HTML page with the
   canvas and translate the user inputs
-- github.com/stdiopt/egoe/systems/input currently it only have event types
+- **github.com/stdiopt/egoe/systems/input** currently it only have event types
   related to pointer and keyboard
-- github.com/stdiopt/egoe/systems/renderer intended to be platform agnostic but
+- **github.com/stdiopt/egoe/systems/renderer** intended to be platform agnostic but
   it currently have some exceptions for buffer transfer (wasm,
   js.CopyBytesToJS..) it will render entities with certain specific components
   world.{Transform,Operation,Material}
-- github.com/stdiopt/egoe/world - contains the common data only components and
-  events for the world {Transform,Operation,Material}
-- github.com/stdiopt/egoe - the domain specific system and entities
+- **github.com/stdiopt/egoe/world** - contains the common data only components and
+  events for the world such as {Transform,Operation,Material}
+- **github.com/stdiopt/egoe** - the domain specific system and entities
