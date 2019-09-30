@@ -2,7 +2,7 @@
 
 https://stdiopt.github.io/egoe/
 
-Exploring `entity component system` pattern in go
+Exploring `entity component system` pattern in go and webgl2 instancing
 
 After a couple of tries/benchmarks on different methods I came up with this
 
@@ -19,7 +19,7 @@ go get -u github.com/hajimehoshi/wasmserve
 Run on repo path
 
 ```
-wasmserve ./cmd/egoe
+wasmserve ./cmd/egoe-wasm
 ```
 
 ## Strong typed components and entities
