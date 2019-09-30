@@ -1,8 +1,10 @@
 # ecs go experiments (egoe)
 
+https://stdiopt.github.io/egoe/
+
 Exploring `entity component system` pattern in go
 
-After a couple of tries/benchmarks on different methods
+After a couple of tries/benchmarks on different methods I came up with this
 
 ## Running
 
